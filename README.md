@@ -15,3 +15,11 @@
 ```bash
 git clone https://github.com/byprogram/sex-telegram-bot.git
 cd sex-telegram-bot
+### 2. 安装依赖
+确保您已安装 Node.js 和 npm，然后运行以下命令：
+
+bash
+复制
+编辑
+```bash
+npm install
