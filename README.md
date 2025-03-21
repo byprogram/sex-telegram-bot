@@ -15,11 +15,20 @@
 ```bash
 git clone https://github.com/byprogram/sex-telegram-bot.git
 cd sex-telegram-bot
+```
 ### 2. 安装依赖
 确保您已安装 Node.js 和 npm，然后运行以下命令：
 
-bash
-复制
-编辑
 ```bash
 npm install
+```
+
+3. 配置环境变量
+将 <kbd>config.example.json</kbd> 重命名为 config.json，并填写必要的信息，例如 Telegram 机器人令牌、数据库连接等。
+
+4. 启动机器人
+使用以下命令启动机器人：
+
+```bash
+nodemon
+```
