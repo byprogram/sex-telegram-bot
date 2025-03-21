@@ -1,4 +1,4 @@
-# sex-telegram-bot（色色机器人）
+# Telegram色色机器人
 
 基于 Telegram 的成人内容分享与互动机器人，支持视频上传、积分系统和分类浏览功能。
 
