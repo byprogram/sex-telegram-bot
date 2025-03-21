@@ -26,9 +26,9 @@ npm install
 导入data.sql到mysql数据库
 
 ### 4. 配置环境变量
-在 <kbd>config/conf.js</kbd> 填写必要的信息，例如 Telegram 机器人令牌、数据库连接等。
-在 数据库表config插入两条数据 
-```sql
+在 <kbd>config/conf.js</kbd> 填写必要的信息，例如 Telegram 机器人令牌、数据库连接等。<br>
+在数据库表 <kbd>config</kbd> 插入两条数据 
+```sql 
 INSERT INTO `config`( `value`, `value2`, `type`, `description`) VALUES ('机器人token','机器人用户名','sese_bot_token','任意备注');INSERT INTO `config`( `value`, `type`, `description`) VALUES ('采集群ID','tg_admin_groupid','任意备注');
 ```
 
